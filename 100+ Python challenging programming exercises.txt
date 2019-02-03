@@ -2163,7 +2163,7 @@ print removeDuplicate(li)
 
 
 #----------------------------------------#
-Question:
+Question 91:
 
 Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
 
@@ -2192,7 +2192,7 @@ print aFemale.getGender()
 
 
 #----------------------------------------#
-Question:
+Question 92:
 
 Please write a program which count and print the numbers of each character in a string input by console.
 
@@ -2225,7 +2225,7 @@ print '\n'.join(['%s,%s' % (k, v) for k, v in dic.items()])
 
 #----------------------------------------#
 
-Question:
+Question 93:
 
 Please write a program which accepts a string from console and print it in reverse order.
 
@@ -2249,7 +2249,7 @@ print s
 
 #----------------------------------------#
 
-Question:
+Question 94:
 
 Please write a program which accepts a string from console and print the characters that have even indexes.
 
@@ -2273,7 +2273,7 @@ print s
 #----------------------------------------#
 
 
-Question:
+Question 95:
 
 Please write a program which prints all permutations of [1,2,3]
 
