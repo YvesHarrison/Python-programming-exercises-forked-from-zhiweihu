@@ -1996,7 +1996,7 @@ t = Timer("for i in range(100):1+1")
 print t.timeit()
 
 #----------------------------------------#
-Question:
+Question 81:
 
 Please write a program to shuffle and print the list [3,6,7,8].
 
@@ -2013,26 +2013,7 @@ shuffle(li)
 print li
 
 #----------------------------------------#
-Question:
-
-Please write a program to shuffle and print the list [3,6,7,8].
-
-
-
-Hints:
-Use shuffle() function to shuffle a list.
-
-Solution:
-
-from random import shuffle
-li = [3,6,7,8]
-shuffle(li)
-print li
-
-
-
-#----------------------------------------#
-Question:
+Question 82:
 
 Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
 
@@ -2052,6 +2033,7 @@ for i in range(len(subjects)):
 
 
 #----------------------------------------#
+Question 83:
 Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
 
 Hints:
@@ -2064,7 +2046,7 @@ li = [x for x in li if x%2!=0]
 print li
 
 #----------------------------------------#
-Question:
+Question 84:
 
 By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
 
@@ -2074,12 +2056,12 @@ Use list comprehension to delete a bunch of element from a list.
 Solution:
 
 li = [12,24,35,70,88,120,155]
-li = [x for x in li if x%5!=0 and x%7!=0]
+li = [x for x in li if x%5!=0 or x%7!=0]
 print li
 
 
 #----------------------------------------#
-Question:
+Question 85:
 
 By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
 
